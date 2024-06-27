@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s ease-in-out;
+}
+
+body {
+  background-color: #e1e1e1b1;
+}
+
+.container {
+  width: 1210px;
+  max-width: 100%;
+  border-radius: 16px;
+  margin: 20px auto 20px;
+  background-color: #e1e1e1;
+  padding: 20px;
+}
