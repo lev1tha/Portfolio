@@ -15,10 +15,6 @@ const navigationList: NavigationItem[] = [
     link: "/about",
     text: "About",
   },
-  {
-    link: "/project",
-    text: "Project",
-  },
 ];
 
 const Header = () => {
