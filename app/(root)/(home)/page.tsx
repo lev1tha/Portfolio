@@ -20,8 +20,6 @@ const page = () => {
   };
 
   return (
-    <div className="container">
-      <Header />
       <div className="inner flex items-center justify-between">
         <div className="section cursor-default my-5">
           <h1 className="title-name">
@@ -45,8 +43,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Footer />
-    </div>
   );
 };
 
